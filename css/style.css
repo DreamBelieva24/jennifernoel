@@ -1,3 +1,11 @@
+a:not(.noicon)[href*="github.com"]:before {
+    content: "";
+}
+
+a:not(.noicon)[href*="linkedin.com"]:before {
+    content: "";
+}
+
 * { box-sizing: border-box; } 
 
 body { font-family: sans-serif; }
@@ -20,14 +28,15 @@ body { font-family: sans-serif; }
 
 .grid-item {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background: #C09;
   border: 2px solid hsla(0, 0%, 0%, 0.5);
+  border-radius: 20px
 }
 
-.grid-item--width2 { width: 200px; }
-.grid-item--height2 { height: 200px; }
+.grid-item--width2 { width: 300px; }
+.grid-item--height2 { height: 300px; }
 
 .grid-item:hover {
   border-color: hsla(0, 0%, 100%, 0.5);
