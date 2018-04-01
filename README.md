@@ -1,2 +1,0 @@
-# jennifernoel
-Developer Portfolio
